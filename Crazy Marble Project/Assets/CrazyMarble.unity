@@ -269,7 +269,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5296259479f174546abb478b9886d7ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -357,7 +357,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438283857}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: fd132a37cb24e47f4bc479bb9dc703f7, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -439,6 +439,7 @@ GameObject:
   - component: {fileID: 2020823100}
   - component: {fileID: 2020823099}
   - component: {fileID: 2020823098}
+  - component: {fileID: 2020823101}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -512,3 +513,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2020823101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020823097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712588d9aff3c45a29a8126c112b51d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _target: {fileID: 1438283862}
+  _zDistance: 0
+  _yDistance: 0
